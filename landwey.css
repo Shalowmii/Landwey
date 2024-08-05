@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+main{
+    background-color: whitesmoke;
+    padding: 0 90px;
+}
+.middle{
+    background-color: white;
+}
+.master{
+    position: relative;
+}
+.drop1{
+    background-color: whitesmoke;
+    width: 180px;
+    border-top: 3px solid orange;
+    height: 130px;
+    padding: 8px 15px;
+    display: none;
+    position: absolute;
+    right: 0;
+}
+.master-sub{
+    position: relative;
+}
+.drop1-sub{
+    background-color: whitesmoke;
+    width: 240px;
+    border-top: 3px solid orange;
+    height: 240px;
+    padding: 8px 15px;
+    display: none;
+    position: absolute;
+    right: 165px;
+    top: -11px;
+}
+.master-sub:hover .drop1-sub{
+    display: block;
+}
+.drop1 p{
+    margin: 0 0 10px 0;
+}
+.master:hover .drop1{
+    display: block;
+}
+.master .about{
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky; 
+    top: 0;
+    background-color: rgb(255,255,255);
+}
+.image-div img{
+    width: 200px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+}
+.quick{
+    background-color: black;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 8px 15px;
+    color: white;
+    position: fixed;
+    right: 100px;
+    /* top: 0; */
+    bottom: 70px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header p{
+    width: 900px;
+    text-align: center;
+}
+section{
+    background-color: white;
+    width: 100;
+    display: flex;
+    padding: 45px;
+    gap: 15px;
+    margin: 25px 0 0 0;
+}
+.left{
+    background-color: whitesmoke;
+    height: 600px;
+    width: 50%;
+    border-radius: 30px;
+}
+.image-src img{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px 30px 0 0;
+}
+.garden{
+    padding: 10px;
+}
+#garden{
+    /* background-color: brown; */
+    width: fit-content;
+    padding: 4px;
+    color: white;
+    background-color: orangered;
+}
+.icon{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.scroll{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    overflow: auto;
+}
+.scroll img{
+    min-width: 150px;
+    border-radius: 5px;
+    height: 80px;
+}
+.scoll::-webkit-scrollbar{
+    /* overflow: hidden; */
+    display: none;
+}
+.dot{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin: 10px 0;
+}
+.dot div{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: gainsboro;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: orangered;
+    color: white;
+    border-radius: 25px;
+    border: 0;
+    padding: 10px 20px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.right{
+    background-color: whitesmoke;
+    height: 600px;
+    width: 50%;
+    border-radius: 30px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: whitesmoke;
+}
