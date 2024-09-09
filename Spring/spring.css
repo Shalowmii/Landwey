@@ -17,7 +17,8 @@
 .up-nav{
     background-color: #6db33f;
     color: white;
-    display: flex;text-align: center;
+    display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     height: 40px;
